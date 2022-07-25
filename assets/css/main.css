@@ -880,10 +880,15 @@ ul.actions:not(.fixed) li .button.icon:before {
 
 /* Icons */
 
+.icons-center {
+  align-items: center;
+}
+
 ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
+  align-items: center;
 }
 
 ul.icons li {
@@ -1673,4 +1678,8 @@ body.is-preload #footer {
   .dash {
     border: 0 none;
   }
+}
+
+.center {
+  text-align: center;
 }
