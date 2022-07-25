@@ -644,21 +644,6 @@ input[type="radio"] + label:before {
   position: relative;
 }
 
-.image:before {
- pointer-events: none;
- background-image: url("../../images/overlay.png");
- background-color: rgba(19, 21, 25, 0.5);
- border-radius: 4px;
- content: '';
- display: block;
- height: 100%;
- left: 0;
- opacity: 0.5;
- position: absolute;
- top: 0;
- width: 100%;
-}
-
 .image img {
  border-radius: 4px;
  display: block;
@@ -1672,4 +1657,20 @@ body.is-preload #footer {
   overflow: hidden;
   border-radius: 8px;
   will-change: transform;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container>* {
+    margin: 0 10px;
+    flex: 1 1 200px;
+}
+
+@media screen and (min-width: 480px) {
+  .dash {
+    border: 0 none;
+  }
 }
