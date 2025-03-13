@@ -74,6 +74,10 @@ section, summary, time, mark, audio, video {
 
 /* Basic */
 
+span {
+  font-weight: bold;
+}
+
 @-ms-viewport {
   width: device-width;
 }
